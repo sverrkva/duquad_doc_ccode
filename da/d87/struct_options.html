@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>QP toolbox: Options Struct Reference</title>
+<title>DuQuad: Options Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,10 +30,10 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td style="padding-left: 0.5em;">
-   <div id="projectname">QP toolbox
+   <div id="projectname">DuQuad
    &#160;<span id="projectnumber">v1.0</span>
    </div>
-   <div id="projectbrief">This is the documentation for the qp-toolbox written in C as part of Sverre Kvamme&#39;s Master&#39;s Thesis</div>
+   <div id="projectbrief">Quadratic Programming Optimizations</div>
   </td>
  </tr>
  </tbody>
@@ -131,8 +131,9 @@ Data Fields</h2></td></tr>
 <tr class="separator:ae69ce377cec817e58cdfe21a6f2d4bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00026">26</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<div class="textblock"><p>Option specified by the user. Default values can be found in documentation </p>
+
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00028">28</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a2806585885e1a51356dbb7353efcb5d7"></a>
 <div class="memitem">
@@ -143,8 +144,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Spesifies the algoritm used to solve the problem. Values: 1: DGM last, 2: DGM avg, 3: DFGM last, 4: DFGM avg, 5: ALM last, 6: ALM avg, 7: FALM last, 8: FALM avg </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00032">32</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00034">34</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -157,8 +159,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Tolerance for dual suboptimality </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00029">29</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00031">31</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -171,8 +174,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Tolerance for primal feasibility in the inner problem </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00031">31</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00033">33</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -185,8 +189,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Tolerance for primal feasibility </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00030">30</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00032">32</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -199,8 +204,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Maximum number of iterations in the inner loop </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00028">28</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00030">30</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -213,8 +219,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Maximum number of iterations in the outer loop </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00027">27</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00029">29</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -227,8 +234,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Penalty parameter used in ALM and FALM </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00033">33</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00035">35</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -241,7 +249,7 @@ Data Fields</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d87/struct_options.html">Options</a></li>
-    <li class="footer">Generated on Mon Nov 3 2014 19:46:46 for QP toolbox by
+    <li class="footer">Generated on Fri Dec 12 2014 21:18:32 for DuQuad by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

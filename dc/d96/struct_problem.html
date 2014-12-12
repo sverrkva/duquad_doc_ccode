@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>QP toolbox: Problem Struct Reference</title>
+<title>DuQuad: Problem Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,10 +30,10 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
   <td style="padding-left: 0.5em;">
-   <div id="projectname">QP toolbox
+   <div id="projectname">DuQuad
    &#160;<span id="projectnumber">v1.0</span>
    </div>
-   <div id="projectbrief">This is the documentation for the qp-toolbox written in C as part of Sverre Kvamme&#39;s Master&#39;s Thesis</div>
+   <div id="projectbrief">Quadratic Programming Optimizations</div>
   </td>
  </tr>
  </tbody>
@@ -137,8 +137,9 @@ Data Fields</h2></td></tr>
 <tr class="separator:ab8f36b742df06c33f365116d055f8138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00013">13</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<div class="textblock"><p>Contains all the matrices and vectors used to describe the general QP </p>
+
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00015">15</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a52c6c9a526dd35316f12c7559c545b45"></a>
 <div class="memitem">
@@ -149,8 +150,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Linear constraints matrix Dimensions m x n </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00016">16</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00018">18</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -163,8 +165,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A transposed </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00017">17</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00019">19</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -177,8 +180,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Linear constraints vector </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00018">18</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00020">20</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -191,8 +195,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The gradient vector </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00015">15</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00017">17</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -205,8 +210,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The Hessian matrix. Dimensions n x n, and has to be positive definite </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00014">14</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00016">16</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -219,8 +225,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The lower bound for optimization variable z </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00021">21</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00023">23</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -233,8 +240,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The lower bound for the linear constraints </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00019">19</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00021">21</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -247,8 +255,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The upper bound for optimization variable z </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00022">22</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00024">24</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -261,8 +270,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The upper bound for the linear constraints </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00020">20</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00022">22</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -275,8 +285,9 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The initial point </p>
 
-<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00023">23</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcf/qp__structs_8h_source.html#l00025">25</a> of file <a class="el" href="../../de/dcf/qp__structs_8h_source.html">qp_structs.h</a>.</p>
 
 </div>
 </div>
@@ -289,7 +300,7 @@ Data Fields</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d96/struct_problem.html">Problem</a></li>
-    <li class="footer">Generated on Mon Nov 3 2014 19:46:46 for QP toolbox by
+    <li class="footer">Generated on Fri Dec 12 2014 21:18:32 for DuQuad by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

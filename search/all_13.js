@@ -8,7 +8,6 @@ var searchData=
   ['ub_5fis_5finf',['ub_is_inf',['../d5/d7c/struct_struct___f_g_m.html#a394fdbd9d5383b98bbcced384cc02c1f',1,'Struct_FGM::ub_is_inf()'],['../dd/df6/struct_struct___g_d_m.html#ace7001719c5481b388f92404ca3a3ae3',1,'Struct_GDM::ub_is_inf()'],['../d2/d21/struct_info.html#aa72e9574119303eb6d729a0c5c80dcda',1,'Info::ub_is_inf()']]],
   ['uint16_5ft',['uint16_t',['../d7/d69/typedefs_8h.html#a273cf69d639a59973b6019625df33e30',1,'typedefs.h']]],
   ['uint32_5ft',['uint32_t',['../d7/d69/typedefs_8h.html#a435d1572bf3f880d55459d9805097f62',1,'typedefs.h']]],
-  ['uint64_5ft',['uint64_t',['../d7/d69/typedefs_8h.html#aa232ecf786a74ce5363c36c10798d2b1',1,'typedefs.h']]],
   ['uint8_5ft',['uint8_t',['../d7/d69/typedefs_8h.html#aba7bc1797add20fe3efdf37ced1182c5',1,'typedefs.h']]],
   ['used',['used',['../d7/da3/struct_array.html#aa457f07471409b3fd4666f6fd3a3a0aa',1,'Array']]]
 ];

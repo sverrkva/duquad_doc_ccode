@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "QP toolbox", "index.html", [
+  [ "DuQuad", "index.html", [
     [ "Data Structures", null, [
       [ "Data Structures", "annotated.html", "annotated" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -25,7 +25,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d8/da0/struct_struct___a_l_m.html#a4bd4aaf2d945ec6a45996d9fbc5bfa5d"
+"d7/d94/struct_struct___d_g_m.html#ae208726d5c4cd819d8bb6ae77c8f26c2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -6,7 +6,6 @@ var searchData=
   ['insertarray',['insertArray',['../dc/d60/general__functions_8c.html#aa8206c8617fff90f4fd6dcb5e7402e11',1,'insertArray(struct Array *a, real_t element):&#160;general_functions.c'],['../d2/d66/general__functions_8h.html#a9bb1133309e1b6df9fc43630b2c58e16',1,'insertArray():&#160;general_functions.h']]],
   ['int16_5ft',['int16_t',['../d7/d69/typedefs_8h.html#a269259c924dce846340ddbb810db2e3c',1,'typedefs.h']]],
   ['int32_5ft',['int32_t',['../d7/d69/typedefs_8h.html#ab1967d8591af1a4e48c37fd2b0f184d0',1,'typedefs.h']]],
-  ['int64_5ft',['int64_t',['../d7/d69/typedefs_8h.html#ad64ec8974fdb1ed456cfc73daf1bb654',1,'typedefs.h']]],
   ['int8_5ft',['int8_t',['../d7/d69/typedefs_8h.html#aef44329758059c91c76d334e8fc09700',1,'typedefs.h']]],
   ['iteration',['ITERATION',['../d0/d29/main_8c.html#a7ccd4324b1ad414aaa49ecf82c2d9eef',1,'main.c']]],
   ['iteration_5finner_5ftot',['ITERATION_INNER_TOT',['../d0/d29/main_8c.html#a79a7eccb0cb878e18f467a81dad88e7f',1,'main.c']]],
