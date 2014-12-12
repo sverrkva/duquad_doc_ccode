@@ -1,0 +1,27 @@
+var struct_struct___d_f_g_m =
+[
+    [ "A_z", "d1/d87/struct_struct___d_f_g_m.html#a500fd2e4ae27dd6123d8a9f44cffeba2", null ],
+    [ "A_z_ds", "d1/d87/struct_struct___d_f_g_m.html#a6be3840f07281a867e6fcf0b26a4f29d", null ],
+    [ "b_lb_hat", "d1/d87/struct_struct___d_f_g_m.html#a34c51109234e32e493d4df5ab8650de2", null ],
+    [ "b_ub_hat", "d1/d87/struct_struct___d_f_g_m.html#ac9a45dd6ae7603deab502a7fa525ea9a", null ],
+    [ "info", "d1/d87/struct_struct___d_f_g_m.html#ac98dc52b3d3dc7a9e80d0ffa1ded21be", null ],
+    [ "iterations_inner_y", "d1/d87/struct_struct___d_f_g_m.html#a55ace74ada58091f3e69f3b2166b3d46", null ],
+    [ "lambda1", "d1/d87/struct_struct___d_f_g_m.html#a35e65eb19ea9e74552fd9134610f2645", null ],
+    [ "lambda1_old", "d1/d87/struct_struct___d_f_g_m.html#a4a689c8d64c1ae056071c68196aa8b14", null ],
+    [ "lambda2", "d1/d87/struct_struct___d_f_g_m.html#a045a33fd35b8997042d46f51b59e618e", null ],
+    [ "lambda2_old", "d1/d87/struct_struct___d_f_g_m.html#a750d039363e6bc7fb2d04a242989ca1f", null ],
+    [ "opt", "d1/d87/struct_struct___d_f_g_m.html#a2bb5b3c7e66899ec102de3fab8b8d461", null ],
+    [ "pf_vec", "d1/d87/struct_struct___d_f_g_m.html#a840f6ba0d2eeb37a341960622d49e86d", null ],
+    [ "prob", "d1/d87/struct_struct___d_f_g_m.html#a3b3e56508c0327b274eeec02a35c5831", null ],
+    [ "res", "d1/d87/struct_struct___d_f_g_m.html#acab973bd66fa74c1708f5e6fe76fcfdc", null ],
+    [ "summ", "d1/d87/struct_struct___d_f_g_m.html#af84a21ef86ef54d4f2378179d4daeb6e", null ],
+    [ "temp1_dim_N", "d1/d87/struct_struct___d_f_g_m.html#a07ae7750c06209e73c79c438b137cd1d", null ],
+    [ "temp2_dim_M", "d1/d87/struct_struct___d_f_g_m.html#a3ba57484a396a7f84465b95194321b24", null ],
+    [ "temp3_dim_M", "d1/d87/struct_struct___d_f_g_m.html#a18105dbe13a5f6b7bc36dd4d1d856712", null ],
+    [ "time_inner_y", "d1/d87/struct_struct___d_f_g_m.html#a0f70e41c0ce69bd80c6485b901660c32", null ],
+    [ "y1", "d1/d87/struct_struct___d_f_g_m.html#ab6d676a2e084573298d5afe2aefdb497", null ],
+    [ "y2", "d1/d87/struct_struct___d_f_g_m.html#aab8bda32509047eb31a7dd3a46731349", null ],
+    [ "z", "d1/d87/struct_struct___d_f_g_m.html#adb624a74639a6801dc4c4a8647c30f87", null ],
+    [ "z_avg", "d1/d87/struct_struct___d_f_g_m.html#aa7b811805624dce59440675ce4dd9c52", null ],
+    [ "z_ds", "d1/d87/struct_struct___d_f_g_m.html#ad8abff48e77f1b5cd8e05bc2eb14236e", null ]
+];

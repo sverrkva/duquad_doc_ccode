@@ -1,0 +1,28 @@
+digraph "FGM"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="FGM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vector_copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#a986f8caf12da2272a4ea7888c8b09f82"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="obj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#a1332524a0f6a4b24a22879ec606f32e9"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mtx_vec_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#ae5c385e3d6cfae9a0595360f5802522a"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="vector_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#afbc0d9c14172eedd97a2c158483b1294"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="vector_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#a3ec7c97bfe0905100b108af7cbde14b8"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="vector_scalar_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#afb32d57a898f96fc86556d0561c85d1b"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vector_sub",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#a25776a382282e8adae879b8a269f9f61"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="vector_min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#a0741a721e8a863c963a278bb2cecffeb"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="vector_max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#aa50c2516a2ed6bf44644116cb1008b7b"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="abs_kvamme",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$math__functions_8c.html#a21fa36c467b44ea22a303dd7b2820160"];
+}

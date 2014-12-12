@@ -1,0 +1,13 @@
+digraph "vector_min"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="vector_min",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DFGM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d45/a00011.html#a4e4ec326c40c48d83061d499d3f9c0ba"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DGM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd4/a00013.html#a7188491ac29f733f85a140c33111476b"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FGM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d1b/a00015.html#affdf91d175bc4ddae721c9609d78e257"];
+}

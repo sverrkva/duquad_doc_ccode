@@ -1,0 +1,6 @@
+digraph "Output"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Output\n|+ iterations\l+ iterations_inner_tot\l+ time\l+ time_tot_inner\l+ flag_last_satisfied\l+ niter_feasible_ds\l+ niter_feasible_pf\l+ exitflag_inner\l+ num_exceeded_max_niter\l_inner\l+ ds_vector\l+ pf_vector\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}
