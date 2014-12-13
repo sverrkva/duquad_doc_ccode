@@ -1,18 +1,18 @@
 var math__functions_8h =
 [
-    [ "abs_2", "d2/de2/math__functions_8h.html#aa94c5d91847d2b56c99696d80a1659b0", null ],
-    [ "mtx_transpose", "d2/de2/math__functions_8h.html#a287425805929a9efbc3ba6c5229559a5", null ],
-    [ "mtx_vec_mul", "d2/de2/math__functions_8h.html#a8188b87ce6cf05c1278add7fe7f7c816", null ],
-    [ "obj", "d2/de2/math__functions_8h.html#a62e0627c97353932be6f4e4f7fc89f53", null ],
-    [ "vector_add", "d2/de2/math__functions_8h.html#a05a464cb78be47cc9e755b1e1db20228", null ],
-    [ "vector_copy", "d2/de2/math__functions_8h.html#a1febcd0366c4730816ca7c0aec691262", null ],
-    [ "vector_elements_to_zero", "d2/de2/math__functions_8h.html#ac81b4ec85bf0e2a9d34237c80e604a38", null ],
-    [ "vector_is_equal", "d2/de2/math__functions_8h.html#a85b796d9dd3fd8cd083f4ed7c9c23bd3", null ],
-    [ "vector_max", "d2/de2/math__functions_8h.html#a4c558a3064baf7735f0ace0a4aecabf8", null ],
-    [ "vector_max_with_zero", "d2/de2/math__functions_8h.html#a0e512d7077f5e35c5533507279d599de", null ],
-    [ "vector_min", "d2/de2/math__functions_8h.html#aa0647653198ad16c2d7975613a072c21", null ],
-    [ "vector_mul", "d2/de2/math__functions_8h.html#ab5517c4129b19e53cc5635df1cd9ada5", null ],
-    [ "vector_norm_2", "d2/de2/math__functions_8h.html#ae841d7b21ba5ebb5cd27a0ce73e33bd7", null ],
-    [ "vector_scalar_mul", "d2/de2/math__functions_8h.html#a9e22c6db7b32b78f078aae89149cba9c", null ],
-    [ "vector_sub", "d2/de2/math__functions_8h.html#a115b253a0f269fdb102cb85ad430a564", null ]
+    [ "abs_2", "d2/de2/math__functions_8h.html#afd0f53c730d1c13a27c042fd292f93e5", null ],
+    [ "mtx_transpose", "d2/de2/math__functions_8h.html#aaaa76b16ba991fbb265c85d2dd4db816", null ],
+    [ "mtx_vec_mul", "d2/de2/math__functions_8h.html#ae5c385e3d6cfae9a0595360f5802522a", null ],
+    [ "obj", "d2/de2/math__functions_8h.html#a1332524a0f6a4b24a22879ec606f32e9", null ],
+    [ "vector_add", "d2/de2/math__functions_8h.html#a3ec7c97bfe0905100b108af7cbde14b8", null ],
+    [ "vector_copy", "d2/de2/math__functions_8h.html#a986f8caf12da2272a4ea7888c8b09f82", null ],
+    [ "vector_elements_to_zero", "d2/de2/math__functions_8h.html#a558464e14792e05c328f53d0b932bfd5", null ],
+    [ "vector_is_equal", "d2/de2/math__functions_8h.html#aa82f29e544f8d13e212ac1e3ff5e0154", null ],
+    [ "vector_max", "d2/de2/math__functions_8h.html#aa50c2516a2ed6bf44644116cb1008b7b", null ],
+    [ "vector_max_with_zero", "d2/de2/math__functions_8h.html#a72a0e9a6b1ce4ea24212f2585ad09b4d", null ],
+    [ "vector_min", "d2/de2/math__functions_8h.html#a0741a721e8a863c963a278bb2cecffeb", null ],
+    [ "vector_mul", "d2/de2/math__functions_8h.html#afbc0d9c14172eedd97a2c158483b1294", null ],
+    [ "vector_norm_2", "d2/de2/math__functions_8h.html#a1681b681fd1099c09ce0c8ce65e2290b", null ],
+    [ "vector_scalar_mul", "d2/de2/math__functions_8h.html#afb32d57a898f96fc86556d0561c85d1b", null ],
+    [ "vector_sub", "d2/de2/math__functions_8h.html#a25776a382282e8adae879b8a269f9f61", null ]
 ];
